@@ -1,6 +1,23 @@
 /* Your Website Styles */
 
 
+
+h2 {
+	text-align: center;
+	background: blue;
+	margin-top: none;
+}
+
+
+
+
+h3 + div  p {
+	text-align: center;
+	background: white;
+}
+
+
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
