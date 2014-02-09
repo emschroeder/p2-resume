@@ -1,20 +1,72 @@
 /* Your Website Styles */
 
+h1 {
+font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 50px;
+	line-height: 40px;
+}
 
+
+body {
+	background: url('../img/bg.png');
+}
 
 h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	box-shadow: 0 0 5px gray;
 	text-align: center;
-	background: blue;
-	margin-top: none;
+	background: #C2E8AE;
+	margin-bottom: 20px;
+	border: solid 1px white;
+	padding: 5px;
+}
+
+h3 {
+	font-family: 'Fauna One', serif;
+		box-shadow: 0 0 5px gray;
+	background: #CCFFCC;
+	padding: 5px;
+		border: solid 1px white;
 }
 
 
-
-
-h3 + div  p {
+h2 + div  p {
+	font-family: 'Fauna One', serif;
+		box-shadow: 0 0 5px gray;
 	text-align: center;
-	background: white;
+	background: #BFFFE3;
+	border: solid 1px white;
+	padding: 5px 0 5px 0;
 }
+
+h3 + div p {
+	font-family: 'Fauna One', serif;
+		box-shadow: 0 0 5px gray;
+	text-align: center;
+	background: #BFFFE3;
+	border: solid 1px white;
+	padding: 5px 0 5px 0;
+
+}
+
+.para {
+	font-family: 'Fauna One', serif;
+		box-shadow: 0 0 5px gray;
+	background: #BFFFE3;
+	border: solid 1px white;
+	padding: 5px;
+}
+
+.intro {
+	font-family: 'Fauna One', serif;
+	padding-top: 15px;
+		box-shadow: 0 0 5px gray;
+		background: #B26B8F;
+	border: solid 1px white;
+
+}
+
+
 
 
 
