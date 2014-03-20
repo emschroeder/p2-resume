@@ -6,6 +6,10 @@
 	height: 30%;
 }
 
+.nav {
+	margin-top: 10px;
+}
+
 body {
 	background: #7C7159;
 	font-family: 'Arimo', sans-serif;
