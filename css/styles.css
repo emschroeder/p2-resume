@@ -1,70 +1,64 @@
 /* Your Website Styles */
 
-h1 {
-font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 50px;
-	line-height: 40px;
+
+.logo {
+	width: 30%;
+	height: 30%;
 }
 
-
 body {
-	background: url('../img/bg.png');
+	background: #7C7159;
+	font-family: 'Arimo', sans-serif;
 }
 
 h2 {
-	font-family: 'Montserrat Alternates', sans-serif;
-	box-shadow: 0 0 5px gray;
-	text-align: center;
-	background: #C2E8AE;
-	margin-bottom: 20px;
-	border: solid 1px white;
+font-family: 'Arimo', sans-serif;
+	text-align: left;
+	color: #7C7159;
+	background: url('../img/arches.png');
+	margin: 0 0 5px 0;
 	padding: 5px;
 }
 
 h3 {
-	font-family: 'Fauna One', serif;
-		box-shadow: 0 0 5px gray;
-	background: #CCFFCC;
-	padding: 5px;
-		border: solid 1px white;
+font-family: 'Arimo', sans-serif;
+color:#77A490;
+margin: 0 0 5px 0;
 }
 
 
 h2 + div  p {
-	font-family: 'Fauna One', serif;
-		box-shadow: 0 0 5px gray;
-	text-align: center;
-	background: #BFFFE3;
-	border: solid 1px white;
-	padding: 5px 0 5px 0;
+font-family: 'Arimo', sans-serif;
+	text-align: left;
+	margin: 0 0 5px 0;
 }
 
 h3 + div p {
-	font-family: 'Fauna One', serif;
-		box-shadow: 0 0 5px gray;
-	text-align: center;
-	background: #BFFFE3;
-	border: solid 1px white;
-	padding: 5px 0 5px 0;
-
+	font-family: 'Arimo', sans-serif;
+	text-align: left;
+	margin: 0 0 5px 0;
 }
 
 .para {
-	font-family: 'Fauna One', serif;
-		box-shadow: 0 0 5px gray;
-	background: #BFFFE3;
-	border: solid 1px white;
-	padding: 5px;
+	font-family: 'Arimo', sans-serif;
+	margin: 0 0 5px 0;
 }
 
-.intro {
-	font-family: 'Fauna One', serif;
-	padding-top: 15px;
-		box-shadow: 0 0 5px gray;
-		background: #B26B8F;
-	border: solid 1px white;
-
+a:link,
+a:visited {
+font-family: 'Arimo', sans-serif;
+  color: #086B63;
+  text-decoration: none;
+    transition: .25s ease-in-out;
 }
+
+a:hover {
+  color: #77A490;
+  text-decoration: none;
+  transition: .25s ease-in-out;
+}
+
+
 
 
 
